@@ -28,7 +28,7 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0aa5f168-44da-4918-a74d-1d992f15dc38" name="Default" comment="Now with tests">
+    <list default="true" id="0aa5f168-44da-4918-a74d-1d992f15dc38" name="Default" comment="">
       <change type="DELETED" beforePath="C:\Workspace\baseLang-sugar\baseLang-sugar.iws" afterPath="" />
     </list>
     <ignored path="baseLang-sugar.iws" />
@@ -95,7 +95,7 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="342" />
+                    <property name="caretX" value="333" />
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="property_value" cellNumber="0" isInList="false">
                       <node model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" id="1163669326983" />
@@ -843,7 +843,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Now with tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed ws" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -859,6 +859,7 @@
     <MESSAGE value="Ignore files" />
     <MESSAGE value="First draft. Seems functional" />
     <MESSAGE value="Now with tests" />
+    <MESSAGE value="removed ws" />
   </component>
   <component name="editorHistoryManager">
     <entry file="mps://JDK/java.util@java_stub/Formatter">
@@ -1196,7 +1197,7 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="342" />
+                <property name="caretX" value="333" />
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="property_value" cellNumber="0" isInList="false">
                   <node model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" id="1163669326983" />
