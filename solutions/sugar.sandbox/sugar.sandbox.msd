@@ -5,6 +5,9 @@
     <modelRoot path="${solution_descriptor}/" namespacePrefix="" />
   </models>
   <sourcePath />
+  <dependencies>
+    <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
+  </dependencies>
   <usedLanguages>
     <usedLanguage>d965f506-a0c0-43c2-871a-b97ce8f6c751(languageSugar)</usedLanguage>
   </usedLanguages>

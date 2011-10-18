@@ -14,6 +14,11 @@
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="MPSFavoritesManager">
+    <favorites_list name="Strings">
+      <favorite_root model_ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" node_pointer="1153422105332" />
+    </favorites_list>
+  </component>
   <component name="MPSProject">
     <projectModules>
       <modulePath path="${project}/languages/sugar/sugar.mpl" />
