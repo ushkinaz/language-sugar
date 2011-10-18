@@ -4,4 +4,4 @@ Mainly inspired by Ruby.
 Currently implemented:
 
 * simplistic string format:
-  "My name is %s, I am %d years old" % name, age
+  ` "My name is %s, I am %d years old" % "Isaac Newton", age `
