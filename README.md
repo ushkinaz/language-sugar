@@ -9,7 +9,8 @@ Inspired by Ruby & Python goodies.
 Simplistic string format
 
 ```java
-assert "My name is %s, I am %d years old" % "Isaac Newton", 18 equals "My name is Isaac Newton, I am 18 years old";
+string message = "My name is %s, I am %d years old" % "Isaac Newton", 18;
+assert message equals "My name is Isaac Newton, I am 18 years old";
  ```
 
 Inline 'if'
@@ -39,5 +40,11 @@ To convert existing statement into "unless/if" statement place your cursor AFTER
 
 ## Links
 [Project page](https://github.com/ushkinaz/language-sugar)
+
 [Issue Tracker](https://github.com/ushkinaz/language-sugar/issues)
-[Source code](git://github.com/ushkinaz/language-sugar.git)
+
+Source code: git://github.com/ushkinaz/language-sugar.git
+
+[Latest stable distribution](https://github.com/ushkinaz/language-sugar/raw/0.1/artifacts/baseLang-sugar.zip)
+
+[Latest unstable](https://github.com/ushkinaz/language-sugar/raw/master/artifacts/baseLang-sugar.zip)
