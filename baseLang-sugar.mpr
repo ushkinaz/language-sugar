@@ -22,7 +22,6 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="${project}/languages/sugar/sugar.mpl" />
-      <modulePath path="${project}/solutions/sugar.sandbox/sugar.sandbox.msd" />
       <modulePath path="${project}/solutions/baseLang-sugar.build/baseLang-sugar.build.msd" />
     </projectModules>
     <genConfs />
