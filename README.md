@@ -36,7 +36,7 @@ MPS is somewhat clunky when it comes to libraries, so restart might be needed.
 
 Add "baseLanguage.sugar" to your list of used languages. 
 
-To convert existing statement into "unless/if" statement place your cursor AFTER ending semicilon and start typing respective keyword.
+To convert existing statement into "unless/if" statement place your cursor AFTER ending semicolon and start typing respective keyword.
 
 ## Links
 [Project page](https://github.com/ushkinaz/language-sugar)
