@@ -34,17 +34,17 @@
         <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="7730107903695475666">
           <node role="statement" roleId="tpee.1068581517665" type="tpe3.AssertEquals" typeId="tpe3.1171978097730" id="7730107903695475675">
             <node role="actual" roleId="tpe3.8427750732757990725" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7730107903695475682">
-              <property name="value" nameId="tpee.1070475926801" value="My name is Dmitry, I am 33 years old" />
+              <property name="value" nameId="tpee.1070475926801" value="My name is Isaac Newton, I am 18 years old" />
             </node>
             <node role="expected" roleId="tpe3.8427750732757990724" type="atci.StringFormat" typeId="atci.7730107903695361636" id="4998957681465313897">
               <node role="stringFormat" roleId="atci.7730107903695439071" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4998957681465313896">
                 <property name="value" nameId="tpee.1070475926801" value="My name is %s, I am %d years old" />
               </node>
               <node role="parameters" roleId="atci.7730107903695472152" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4998957681465313899">
-                <property name="value" nameId="tpee.1070475926801" value="Dmitry" />
+                <property name="value" nameId="tpee.1070475926801" value="Isaac Newton" />
               </node>
-              <node role="parameters" roleId="atci.7730107903695472152" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4998957681465313901">
-                <property name="value" nameId="tpee.1068580320021" value="33" />
+              <node role="parameters" roleId="atci.7730107903695472152" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="959314896742058303">
+                <property name="value" nameId="tpee.1068580320021" value="18" />
               </node>
             </node>
           </node>
