@@ -9,7 +9,7 @@ Inspired by Ruby & Python goodies.
 Simplistic string format
 
 ```java
-"My name is %s, I am %d years old" % "Isaac Newton", age
+assert "My name is %s, I am %d years old" % "Isaac Newton", 18 equals "My name is Isaac Newton, I am 18 years old";
  ```
 
 Inline 'if'
@@ -30,8 +30,14 @@ assert t == 0;
 
 ## Usage
 
-Goto Settings->Global Libraries, create "baseLanguage.sugar" library, pointing to a directory with language distribution.
+Goto Settings->Global Libraries, create "baseLanguage.sugar" library, pointing to a directory with baseLanguage.sugar.jar and baseLanguage.sugar-src.jar.
+MPS is somewhat clunky when it comes to libraries, so restart might be needed.
 
-Add "baseLanguage.sugar" to your list of used languages.
+Add "baseLanguage.sugar" to your list of used languages. 
 
 To convert existing statement into "unless/if" statement place your cursor AFTER ending semicilon and start typing respective keyword.
+
+## Links
+[Project page](https://github.com/ushkinaz/language-sugar)
+[Issue Tracker](https://github.com/ushkinaz/language-sugar/issues)
+[Source code](git://github.com/ushkinaz/language-sugar.git)
