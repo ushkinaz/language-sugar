@@ -11,7 +11,7 @@
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <roots>
     <node type="tp41.DataFlowBuilderDeclaration" typeId="tp41.1206442055221" id="6100386288364165673">
-      <link role="conceptDeclaration" roleId="tp41.1206442096288" targetNodeId="atci.6100386288364111228" resolveInfo="UnlessStatement" />
+      <link role="conceptDeclaration" roleId="tp41.1206442096288" targetNodeId="atci.6100386288364111228" resolveInfo="ConditionalInlineStatement" />
     </node>
     <node type="tp41.DataFlowBuilderDeclaration" typeId="tp41.1206442055221" id="6100386288364171298">
       <link role="conceptDeclaration" roleId="tp41.1206442096288" targetNodeId="atci.7730107903695361636" resolveInfo="StringFormat" />

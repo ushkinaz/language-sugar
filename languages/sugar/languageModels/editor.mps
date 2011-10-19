@@ -18,11 +18,11 @@
       <link role="applicableConcept" roleId="tpc2.1139535219968" targetNodeId="atci.7730107903695361636" resolveInfo="StringFormat" />
     </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="6100386288364111229">
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="atci.6100386288364111228" resolveInfo="UnlessStatement" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="atci.6100386288364111228" resolveInfo="ConditionalInlineStatement" />
     </node>
     <node type="tpc2.CellActionMapDeclaration" typeId="tpc2.1139535219966" id="6100386288364119979">
       <property name="name" nameId="tpck.1169194664001" value="Unless_Delete" />
-      <link role="applicableConcept" roleId="tpc2.1139535219968" targetNodeId="atci.6100386288364111228" resolveInfo="UnlessStatement" />
+      <link role="applicableConcept" roleId="tpc2.1139535219968" targetNodeId="atci.6100386288364111228" resolveInfo="ConditionalInlineStatement" />
     </node>
   </roots>
   <root id="7730107903695439072">

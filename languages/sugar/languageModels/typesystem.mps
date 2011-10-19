@@ -15,7 +15,7 @@
       <property name="overrides" nameId="tpd4.1195213689297" value="true" />
     </node>
     <node type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="6100386288364172774">
-      <property name="name" nameId="tpck.1169194664001" value="typeof_UnlessStatement" />
+      <property name="name" nameId="tpck.1169194664001" value="typeof_ConditionalInlineStatement" />
     </node>
   </roots>
   <root id="7730107903695436415">
@@ -71,7 +71,7 @@
           <node role="normalType" roleId="tpd4.1185788644032" type="tpd4.TypeOfExpression" typeId="tpd4.1174657487114" id="6100386288364172778">
             <node role="term" roleId="tpd4.1174657509053" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6100386288364172781">
               <node role="operand" roleId="tpee.1197027771414" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="6100386288364172780">
-                <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="6100386288364172776" resolveInfo="unlessStatement" />
+                <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="6100386288364172776" resolveInfo="inlineStatement" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="6100386288364172785">
                 <link role="link" roleId="tp25.1138056516764" targetNodeId="atci.1068580123160" />
@@ -82,8 +82,8 @@
       </node>
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="6100386288364172776">
-      <property name="name" nameId="tpck.1169194664001" value="unlessStatement" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="atci.6100386288364111228" resolveInfo="UnlessStatement" />
+      <property name="name" nameId="tpck.1169194664001" value="inlineStatement" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="atci.6100386288364111228" resolveInfo="ConditionalInlineStatement" />
     </node>
   </root>
 </model>
