@@ -35,12 +35,12 @@
       <property name="antName" nameId="tps4.1205335307578" value="file.separator" />
     </node>
     <node role="baseDirectory" roleId="tps4.1226493152214" type="tps4.BaseDirPath" typeId="tps4.1226494304686" id="6100386288364044775">
-      <node role="macro" roleId="tps4.1220976095387" type="tps4.MacroReference" typeId="tps4.1220976052975" id="6100386288364044776">
-        <property name="name" nameId="tps4.1220976068141" value="" />
+      <node role="macro" roleId="tps4.1220976095387" type="tps4.MacroReference" typeId="tps4.1220976052975" id="1480731962898580250">
+        <property name="name" nameId="tps4.1220976068141" value="WORKSPACE" />
       </node>
       <node role="compositePathComponent" roleId="tps4.1220974249696" type="tps4.CompositePathComponent" typeId="tps4.1220973992845" id="6100386288364044777">
-        <node role="pathComponent" roleId="tps4.1220978161990" type="tps4.PathComponent" typeId="tps4.1220973955905" id="6100386288364044778">
-          <property name="path" nameId="tps4.1220974398640" value="C:/Workspace/baseLang-sugar" />
+        <node role="pathComponent" roleId="tps4.1220978161990" type="tps4.PathComponent" typeId="tps4.1220973955905" id="1480731962898580251">
+          <property name="path" nameId="tps4.1220974398640" value="baseLang-sugar" />
         </node>
       </node>
     </node>
