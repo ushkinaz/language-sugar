@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="DFABuilders.java" startLine="8" startPosition="0" endLine="14" endPosition="0" unitName="baseLanguage.sugar.dataFlow.DFABuilders" />
+  <root nodeId="6100386288364165673">
+    <nodeInfo nodeId="6100386288364171290" fileName="ConditionalInlineStatement_DataFlow.java" startLine="15" startPosition="102" endLine="16" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6100386288364173702" fileName="ConditionalInlineStatement_DataFlow.java" startLine="16" startPosition="106" endLine="17" endPosition="139" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6100386288364170668" fileName="ConditionalInlineStatement_DataFlow.java" startLine="17" startPosition="139" endLine="18" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6100386288364165673" fileName="ConditionalInlineStatement_DataFlow.java" startLine="11" startPosition="74" endLine="13" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ConditionalInlineStatement_DataFlow#()V" />
+    <nodeInfo nodeId="6100386288364165673" fileName="ConditionalInlineStatement_DataFlow.java" startLine="14" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="build#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
+    <scopeInfo nodeId="6100386288364165673" fileName="ConditionalInlineStatement_DataFlow.java" startLine="12" startPosition="48" endLine="12" endPosition="48" />
+    <scopeInfo nodeId="6100386288364165673" fileName="ConditionalInlineStatement_DataFlow.java" startLine="11" startPosition="74" endLine="13" endPosition="3" />
+    <scopeInfo nodeId="6100386288364165675" fileName="ConditionalInlineStatement_DataFlow.java" startLine="15" startPosition="102" endLine="18" endPosition="113" />
+    <scopeInfo nodeId="6100386288364165673" fileName="ConditionalInlineStatement_DataFlow.java" startLine="14" startPosition="0" endLine="20" endPosition="0" />
+    <unitInfo nodeId="6100386288364165673" fileName="ConditionalInlineStatement_DataFlow.java" startLine="11" startPosition="0" endLine="21" endPosition="0" unitName="baseLanguage.sugar.dataFlow.ConditionalInlineStatement_DataFlow" />
+  </root>
+  <root nodeId="6100386288364171298">
+    <nodeInfo nodeId="6100386288364171300" fileName="StringFormat_DataFlow.java" startLine="17" startPosition="102" endLine="18" endPosition="132" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6100386288364171300" fileName="StringFormat_DataFlow.java" startLine="18" startPosition="132" endLine="19" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6100386288364171300" fileName="StringFormat_DataFlow.java" startLine="20" startPosition="32" endLine="21" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6100386288364171321" fileName="StringFormat_DataFlow.java" startLine="21" startPosition="34" endLine="22" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6100386288364171301" fileName="StringFormat_DataFlow.java" startLine="23" startPosition="5" endLine="24" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6100386288364171298" fileName="StringFormat_DataFlow.java" startLine="13" startPosition="60" endLine="15" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="StringFormat_DataFlow#()V" />
+    <nodeInfo nodeId="6100386288364171300" fileName="StringFormat_DataFlow.java" startLine="19" startPosition="20" endLine="23" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="6100386288364171298" fileName="StringFormat_DataFlow.java" startLine="16" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="build#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
+    <scopeInfo nodeId="6100386288364171298" fileName="StringFormat_DataFlow.java" startLine="14" startPosition="34" endLine="14" endPosition="34" />
+    <scopeInfo nodeId="6100386288364171298" fileName="StringFormat_DataFlow.java" startLine="13" startPosition="60" endLine="15" endPosition="3" />
+    <scopeInfo nodeId="6100386288364171300" fileName="StringFormat_DataFlow.java" startLine="20" startPosition="32" endLine="22" endPosition="53" />
+    <scopeInfo nodeId="6100386288364171300" fileName="StringFormat_DataFlow.java" startLine="17" startPosition="102" endLine="24" endPosition="109" />
+    <scopeInfo nodeId="6100386288364171298" fileName="StringFormat_DataFlow.java" startLine="16" startPosition="0" endLine="26" endPosition="0" />
+    <unitInfo nodeId="6100386288364171298" fileName="StringFormat_DataFlow.java" startLine="13" startPosition="0" endLine="27" endPosition="0" unitName="baseLanguage.sugar.dataFlow.StringFormat_DataFlow" />
+  </root>
+</debugInfo>
+

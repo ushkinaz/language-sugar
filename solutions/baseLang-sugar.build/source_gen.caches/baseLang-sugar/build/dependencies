@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="baseLang-sugar.build.baseLang-sugar-compile" file="baseLang-sugar-compile.xml" />
+  <dependency className="baseLang-sugar.build.baseLang-sugar-default" file="baseLang-sugar-default.xml" />
+  <dependency className="baseLang-sugar.build.baseLang-sugar-languages" file="baseLang-sugar-languages.xml" />
+  <dependency className="baseLang-sugar.build.baseLang-sugar" file="baseLang-sugar.properties" />
+</dependenciesRoot>
+
