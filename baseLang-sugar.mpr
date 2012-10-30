@@ -22,9 +22,9 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="${project}/languages/sugar/sugar.mpl" />
+      <modulePath path="${project}/languages/test/test.mpl" folder="" />
       <modulePath path="${project}/solutions/baseLang-sugar.build/baseLang-sugar.build.msd" />
       <modulePath path="${project}/solutions/test/test.msd" folder="" />
-      <modulePath path="${project}/languages/test/test.mpl" folder="" />
     </projectModules>
     <genConfs />
   </component>
@@ -33,7 +33,7 @@
   </component>
   <component name="ProjectRootManager" version="2" />
   <component name="ProjectVersion">
-    <option name="version" value="2.0" />
+    <option name="version" value="2.5" />
   </component>
   <component name="SvnConfiguration" maxAnnotateRevisions="500">
     <option name="USER" value="" />
