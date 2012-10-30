@@ -1,13 +1,17 @@
 <project name="baseLang-sugar-default" default="main">
-  <property file="${ant.file}/../baseLang-sugar.properties" />
-  <import file="${ant.file}/../baseLang-sugar-compile.xml" />
-  <import file="${ant.file}/../baseLang-sugar-languages.xml" />
+  <property file="${ant.file.baseLang-sugar-default}/../baseLang-sugar.properties" />
+  <import file="${ant.file.baseLang-sugar-default}/../baseLang-sugar-compile.xml" />
+  <import file="${ant.file.baseLang-sugar-default}/../baseLang-sugar-languages.xml" />
   <target name="main" depends="compile,clean.before,folders.create,do.the.job,clean.after" />
   <target name="compile">
     <antcall target="compile.all" />
   </target>
+  <target name="clean">
+    <property name="to.clean" value="${deploy.dir}" />
+    <echo>Removing directory ${to.clean}</echo>
+    <delete dir="${to.clean}" />
+  </target>
   <target name="clean.before" depends="compile">
-    <delete dir="${deploy.dir}" />
     <tstamp />
   </target>
   <target name="folders.create" depends="clean.before">

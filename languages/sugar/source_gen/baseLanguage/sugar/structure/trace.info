@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="Sugar_Language.java" startLine="9" startPosition="0" endLine="16" endPosition="0" unitName="baseLanguage.sugar.structure.Sugar_Language" />
   <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="31" endPosition="0" unitName="baseLanguage.sugar.structure.StructureAspectDescriptor" />
-  <root nodeId="4998957681465435837">
+  <unitInfo fileName="Sugar_Language.java" startLine="9" startPosition="0" endLine="16" endPosition="0" unitName="baseLanguage.sugar.structure.Sugar_Language" />
+  <root nodeId="4998957681465435837" modelId="r:455e9449-2e48-48a9-93ac-e0c6a3819e34(baseLanguage.sugar.structure)">
     <nodeInfo nodeId="4998957681465435837" fileName="UnlessInlineStatement.java" startLine="10" startPosition="71" endLine="11" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="4998957681465435837" fileName="UnlessInlineStatement.java" startLine="13" startPosition="44" endLine="14" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="4998957681465435837" fileName="UnlessInlineStatement.java" startLine="17" startPosition="76" endLine="18" endPosition="184" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -13,12 +13,19 @@
     <scopeInfo nodeId="4998957681465435837" fileName="UnlessInlineStatement.java" startLine="13" startPosition="44" endLine="14" endPosition="16" />
     <scopeInfo nodeId="4998957681465435837" fileName="UnlessInlineStatement.java" startLine="17" startPosition="76" endLine="18" endPosition="184" />
     <scopeInfo nodeId="4998957681465435837" fileName="UnlessInlineStatement.java" startLine="21" startPosition="62" endLine="22" endPosition="56" />
-    <scopeInfo nodeId="4998957681465435837" fileName="UnlessInlineStatement.java" startLine="12" startPosition="0" endLine="15" endPosition="3" />
-    <scopeInfo nodeId="4998957681465435837" fileName="UnlessInlineStatement.java" startLine="16" startPosition="0" endLine="20" endPosition="0" />
-    <scopeInfo nodeId="4998957681465435837" fileName="UnlessInlineStatement.java" startLine="20" startPosition="0" endLine="24" endPosition="0" />
+    <scopeInfo nodeId="4998957681465435837" fileName="UnlessInlineStatement.java" startLine="12" startPosition="0" endLine="15" endPosition="3">
+      <varInfo nodeId="4998957681465435837" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4998957681465435837" fileName="UnlessInlineStatement.java" startLine="16" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="4998957681465435837" varName="init" />
+      <varInfo nodeId="4998957681465435837" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="4998957681465435837" fileName="UnlessInlineStatement.java" startLine="20" startPosition="0" endLine="24" endPosition="0">
+      <varInfo nodeId="4998957681465435837" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="4998957681465435837" fileName="UnlessInlineStatement.java" startLine="10" startPosition="0" endLine="25" endPosition="0" unitName="baseLanguage.sugar.structure.UnlessInlineStatement" />
   </root>
-  <root nodeId="4998957681465435841">
+  <root nodeId="4998957681465435841" modelId="r:455e9449-2e48-48a9-93ac-e0c6a3819e34(baseLanguage.sugar.structure)">
     <nodeInfo nodeId="4998957681465435841" fileName="IfInlineStatement.java" startLine="10" startPosition="67" endLine="11" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="4998957681465435841" fileName="IfInlineStatement.java" startLine="13" startPosition="40" endLine="14" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="4998957681465435841" fileName="IfInlineStatement.java" startLine="17" startPosition="72" endLine="18" endPosition="176" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -29,12 +36,19 @@
     <scopeInfo nodeId="4998957681465435841" fileName="IfInlineStatement.java" startLine="13" startPosition="40" endLine="14" endPosition="16" />
     <scopeInfo nodeId="4998957681465435841" fileName="IfInlineStatement.java" startLine="17" startPosition="72" endLine="18" endPosition="176" />
     <scopeInfo nodeId="4998957681465435841" fileName="IfInlineStatement.java" startLine="21" startPosition="58" endLine="22" endPosition="52" />
-    <scopeInfo nodeId="4998957681465435841" fileName="IfInlineStatement.java" startLine="12" startPosition="0" endLine="15" endPosition="3" />
-    <scopeInfo nodeId="4998957681465435841" fileName="IfInlineStatement.java" startLine="16" startPosition="0" endLine="20" endPosition="0" />
-    <scopeInfo nodeId="4998957681465435841" fileName="IfInlineStatement.java" startLine="20" startPosition="0" endLine="24" endPosition="0" />
+    <scopeInfo nodeId="4998957681465435841" fileName="IfInlineStatement.java" startLine="12" startPosition="0" endLine="15" endPosition="3">
+      <varInfo nodeId="4998957681465435841" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4998957681465435841" fileName="IfInlineStatement.java" startLine="16" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="4998957681465435841" varName="init" />
+      <varInfo nodeId="4998957681465435841" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="4998957681465435841" fileName="IfInlineStatement.java" startLine="20" startPosition="0" endLine="24" endPosition="0">
+      <varInfo nodeId="4998957681465435841" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="4998957681465435841" fileName="IfInlineStatement.java" startLine="10" startPosition="0" endLine="25" endPosition="0" unitName="baseLanguage.sugar.structure.IfInlineStatement" />
   </root>
-  <root nodeId="6100386288364111228">
+  <root nodeId="6100386288364111228" modelId="r:455e9449-2e48-48a9-93ac-e0c6a3819e34(baseLanguage.sugar.structure)">
     <nodeInfo nodeId="6100386288364111228" fileName="ConditionalInlineStatement.java" startLine="12" startPosition="59" endLine="13" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="6100386288364111228" fileName="ConditionalInlineStatement.java" startLine="13" startPosition="97" endLine="14" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="CONDITION" />
     <nodeInfo nodeId="6100386288364111228" fileName="ConditionalInlineStatement.java" startLine="14" startPosition="53" endLine="15" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="INLINE_EXPRESSION" />
@@ -59,16 +73,27 @@
     <scopeInfo nodeId="6100386288364111228" fileName="ConditionalInlineStatement.java" startLine="33" startPosition="52" endLine="34" endPosition="71" />
     <scopeInfo nodeId="6100386288364111228" fileName="ConditionalInlineStatement.java" startLine="37" startPosition="81" endLine="38" endPosition="194" />
     <scopeInfo nodeId="6100386288364111228" fileName="ConditionalInlineStatement.java" startLine="41" startPosition="67" endLine="42" endPosition="61" />
-    <scopeInfo nodeId="6100386288364111228" fileName="ConditionalInlineStatement.java" startLine="16" startPosition="0" endLine="19" endPosition="3" />
+    <scopeInfo nodeId="6100386288364111228" fileName="ConditionalInlineStatement.java" startLine="16" startPosition="0" endLine="19" endPosition="3">
+      <varInfo nodeId="6100386288364111228" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="6100386288364111228" fileName="ConditionalInlineStatement.java" startLine="20" startPosition="0" endLine="24" endPosition="0" />
-    <scopeInfo nodeId="6100386288364111228" fileName="ConditionalInlineStatement.java" startLine="24" startPosition="0" endLine="28" endPosition="0" />
+    <scopeInfo nodeId="6100386288364111228" fileName="ConditionalInlineStatement.java" startLine="24" startPosition="0" endLine="28" endPosition="0">
+      <varInfo nodeId="6100386288364111228" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="6100386288364111228" fileName="ConditionalInlineStatement.java" startLine="28" startPosition="0" endLine="32" endPosition="0" />
-    <scopeInfo nodeId="6100386288364111228" fileName="ConditionalInlineStatement.java" startLine="32" startPosition="0" endLine="36" endPosition="0" />
-    <scopeInfo nodeId="6100386288364111228" fileName="ConditionalInlineStatement.java" startLine="36" startPosition="0" endLine="40" endPosition="0" />
-    <scopeInfo nodeId="6100386288364111228" fileName="ConditionalInlineStatement.java" startLine="40" startPosition="0" endLine="44" endPosition="0" />
+    <scopeInfo nodeId="6100386288364111228" fileName="ConditionalInlineStatement.java" startLine="32" startPosition="0" endLine="36" endPosition="0">
+      <varInfo nodeId="6100386288364111228" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6100386288364111228" fileName="ConditionalInlineStatement.java" startLine="36" startPosition="0" endLine="40" endPosition="0">
+      <varInfo nodeId="6100386288364111228" varName="init" />
+      <varInfo nodeId="6100386288364111228" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="6100386288364111228" fileName="ConditionalInlineStatement.java" startLine="40" startPosition="0" endLine="44" endPosition="0">
+      <varInfo nodeId="6100386288364111228" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="6100386288364111228" fileName="ConditionalInlineStatement.java" startLine="12" startPosition="0" endLine="45" endPosition="0" unitName="baseLanguage.sugar.structure.ConditionalInlineStatement" />
   </root>
-  <root nodeId="7730107903695361636">
+  <root nodeId="7730107903695361636" modelId="r:455e9449-2e48-48a9-93ac-e0c6a3819e34(baseLanguage.sugar.structure)">
     <nodeInfo nodeId="7730107903695361636" fileName="StringFormat.java" startLine="13" startPosition="46" endLine="14" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="concept" />
     <nodeInfo nodeId="7730107903695361636" fileName="StringFormat.java" startLine="14" startPosition="83" endLine="15" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="STRING_FORMAT" />
     <nodeInfo nodeId="7730107903695361636" fileName="StringFormat.java" startLine="15" startPosition="60" endLine="16" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="PARAMETERS" />
@@ -102,16 +127,30 @@
     <scopeInfo nodeId="7730107903695361636" fileName="StringFormat.java" startLine="46" startPosition="66" endLine="47" endPosition="58" />
     <scopeInfo nodeId="7730107903695361636" fileName="StringFormat.java" startLine="50" startPosition="67" endLine="51" endPosition="166" />
     <scopeInfo nodeId="7730107903695361636" fileName="StringFormat.java" startLine="54" startPosition="53" endLine="55" endPosition="47" />
-    <scopeInfo nodeId="7730107903695361636" fileName="StringFormat.java" startLine="17" startPosition="0" endLine="20" endPosition="3" />
+    <scopeInfo nodeId="7730107903695361636" fileName="StringFormat.java" startLine="17" startPosition="0" endLine="20" endPosition="3">
+      <varInfo nodeId="7730107903695361636" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="7730107903695361636" fileName="StringFormat.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
-    <scopeInfo nodeId="7730107903695361636" fileName="StringFormat.java" startLine="25" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="7730107903695361636" fileName="StringFormat.java" startLine="25" startPosition="0" endLine="29" endPosition="0">
+      <varInfo nodeId="7730107903695361636" varName="node" />
+    </scopeInfo>
     <scopeInfo nodeId="7730107903695361636" fileName="StringFormat.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
     <scopeInfo nodeId="7730107903695361636" fileName="StringFormat.java" startLine="33" startPosition="0" endLine="37" endPosition="0" />
     <scopeInfo nodeId="7730107903695361636" fileName="StringFormat.java" startLine="37" startPosition="0" endLine="41" endPosition="0" />
-    <scopeInfo nodeId="7730107903695361636" fileName="StringFormat.java" startLine="41" startPosition="0" endLine="45" endPosition="0" />
-    <scopeInfo nodeId="7730107903695361636" fileName="StringFormat.java" startLine="45" startPosition="0" endLine="49" endPosition="0" />
-    <scopeInfo nodeId="7730107903695361636" fileName="StringFormat.java" startLine="49" startPosition="0" endLine="53" endPosition="0" />
-    <scopeInfo nodeId="7730107903695361636" fileName="StringFormat.java" startLine="53" startPosition="0" endLine="57" endPosition="0" />
+    <scopeInfo nodeId="7730107903695361636" fileName="StringFormat.java" startLine="41" startPosition="0" endLine="45" endPosition="0">
+      <varInfo nodeId="7730107903695361636" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="7730107903695361636" fileName="StringFormat.java" startLine="45" startPosition="0" endLine="49" endPosition="0">
+      <varInfo nodeId="7730107903695361636" varName="node" />
+      <varInfo nodeId="7730107903695361636" varName="prev" />
+    </scopeInfo>
+    <scopeInfo nodeId="7730107903695361636" fileName="StringFormat.java" startLine="49" startPosition="0" endLine="53" endPosition="0">
+      <varInfo nodeId="7730107903695361636" varName="init" />
+      <varInfo nodeId="7730107903695361636" varName="sm" />
+    </scopeInfo>
+    <scopeInfo nodeId="7730107903695361636" fileName="StringFormat.java" startLine="53" startPosition="0" endLine="57" endPosition="0">
+      <varInfo nodeId="7730107903695361636" varName="sm" />
+    </scopeInfo>
     <unitInfo nodeId="7730107903695361636" fileName="StringFormat.java" startLine="13" startPosition="0" endLine="58" endPosition="0" unitName="baseLanguage.sugar.structure.StringFormat" />
   </root>
 </debugInfo>

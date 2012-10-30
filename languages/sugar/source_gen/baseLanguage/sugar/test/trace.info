@@ -1,3 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo />
+<debugInfo>
+  <root nodeId="2301619198987339934" modelId="r:5644614b-8d71-43c8-b90f-7ec579e93494(baseLanguage.sugar.test)">
+    <nodeInfo nodeId="2301619198987339949" fileName="UnlessTest_Test.java" startLine="9" startPosition="55" endLine="10" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2301619198987339960" fileName="UnlessTest_Test.java" startLine="13" startPosition="5" endLine="14" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2301619198987339963" fileName="UnlessTest_Test.java" startLine="17" startPosition="52" endLine="18" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2301619198987339972" fileName="UnlessTest_Test.java" startLine="21" startPosition="5" endLine="22" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4998957681465440058" fileName="UnlessTest_Test.java" startLine="10" startPosition="14" endLine="13" endPosition="5" conceptFqName="baseLanguage.sugar.structure.UnlessInlineStatement" />
+    <nodeInfo nodeId="4998957681465440073" fileName="UnlessTest_Test.java" startLine="18" startPosition="14" endLine="21" endPosition="5" conceptFqName="baseLanguage.sugar.structure.UnlessInlineStatement" />
+    <nodeInfo nodeId="2301619198987339941" fileName="UnlessTest_Test.java" startLine="8" startPosition="47" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_unlessTriggered#()V" />
+    <nodeInfo nodeId="2301619198987339945" fileName="UnlessTest_Test.java" startLine="16" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_notTriggered#()V" />
+    <scopeInfo nodeId="2301619198987339944" fileName="UnlessTest_Test.java" startLine="9" startPosition="55" endLine="14" endPosition="28">
+      <varInfo nodeId="2301619198987339950" varName="t" />
+    </scopeInfo>
+    <scopeInfo nodeId="2301619198987339948" fileName="UnlessTest_Test.java" startLine="17" startPosition="52" endLine="22" endPosition="28">
+      <varInfo nodeId="2301619198987339964" varName="t" />
+    </scopeInfo>
+    <scopeInfo nodeId="2301619198987339941" fileName="UnlessTest_Test.java" startLine="8" startPosition="47" endLine="16" endPosition="0" />
+    <scopeInfo nodeId="2301619198987339945" fileName="UnlessTest_Test.java" startLine="16" startPosition="0" endLine="24" endPosition="0" />
+    <unitInfo nodeId="2301619198987339934" fileName="UnlessTest_Test.java" startLine="8" startPosition="0" endLine="25" endPosition="0" unitName="baseLanguage.sugar.test.UnlessTest_Test" />
+  </root>
+  <root nodeId="4998957681465451703" modelId="r:5644614b-8d71-43c8-b90f-7ec579e93494(baseLanguage.sugar.test)">
+    <nodeInfo nodeId="4998957681465451714" fileName="IfTest_Test.java" startLine="9" startPosition="49" endLine="10" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4998957681465451725" fileName="IfTest_Test.java" startLine="13" startPosition="5" endLine="14" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4998957681465451732" fileName="IfTest_Test.java" startLine="17" startPosition="52" endLine="18" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4998957681465451741" fileName="IfTest_Test.java" startLine="21" startPosition="5" endLine="22" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4998957681465451745" fileName="IfTest_Test.java" startLine="10" startPosition="14" endLine="13" endPosition="5" conceptFqName="baseLanguage.sugar.structure.IfInlineStatement" />
+    <nodeInfo nodeId="4998957681465451754" fileName="IfTest_Test.java" startLine="18" startPosition="14" endLine="21" endPosition="5" conceptFqName="baseLanguage.sugar.structure.IfInlineStatement" />
+    <nodeInfo nodeId="4998957681465451710" fileName="IfTest_Test.java" startLine="8" startPosition="43" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_triggered#()V" />
+    <nodeInfo nodeId="4998957681465451728" fileName="IfTest_Test.java" startLine="16" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_notTriggered#()V" />
+    <scopeInfo nodeId="4998957681465451713" fileName="IfTest_Test.java" startLine="9" startPosition="49" endLine="14" endPosition="28">
+      <varInfo nodeId="4998957681465451715" varName="t" />
+    </scopeInfo>
+    <scopeInfo nodeId="4998957681465451731" fileName="IfTest_Test.java" startLine="17" startPosition="52" endLine="22" endPosition="28">
+      <varInfo nodeId="4998957681465451733" varName="t" />
+    </scopeInfo>
+    <scopeInfo nodeId="4998957681465451710" fileName="IfTest_Test.java" startLine="8" startPosition="43" endLine="16" endPosition="0" />
+    <scopeInfo nodeId="4998957681465451728" fileName="IfTest_Test.java" startLine="16" startPosition="0" endLine="24" endPosition="0" />
+    <unitInfo nodeId="4998957681465451703" fileName="IfTest_Test.java" startLine="8" startPosition="0" endLine="25" endPosition="0" unitName="baseLanguage.sugar.test.IfTest_Test" />
+  </root>
+  <root nodeId="7730107903695475655" modelId="r:5644614b-8d71-43c8-b90f-7ec579e93494(baseLanguage.sugar.test)">
+    <nodeInfo nodeId="7730107903695475675" fileName="StringFormatTest_Test.java" startLine="10" startPosition="46" endLine="11" endPosition="161" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7730107903695570441" fileName="StringFormatTest_Test.java" startLine="14" startPosition="48" endLine="15" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7730107903695475663" fileName="StringFormatTest_Test.java" startLine="9" startPosition="53" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_format#()V" />
+    <nodeInfo nodeId="7730107903695570405" fileName="StringFormatTest_Test.java" startLine="13" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_noParams#()V" />
+    <scopeInfo nodeId="7730107903695475666" fileName="StringFormatTest_Test.java" startLine="10" startPosition="46" endLine="11" endPosition="161" />
+    <scopeInfo nodeId="7730107903695570408" fileName="StringFormatTest_Test.java" startLine="14" startPosition="48" endLine="15" endPosition="102" />
+    <scopeInfo nodeId="7730107903695475663" fileName="StringFormatTest_Test.java" startLine="9" startPosition="53" endLine="13" endPosition="0" />
+    <scopeInfo nodeId="7730107903695570405" fileName="StringFormatTest_Test.java" startLine="13" startPosition="0" endLine="17" endPosition="0" />
+    <unitInfo nodeId="7730107903695475655" fileName="StringFormatTest_Test.java" startLine="9" startPosition="0" endLine="18" endPosition="0" unitName="baseLanguage.sugar.test.StringFormatTest_Test" />
+  </root>
+</debugInfo>
 

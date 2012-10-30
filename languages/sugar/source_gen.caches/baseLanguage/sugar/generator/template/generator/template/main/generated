@@ -15,7 +15,7 @@
   <dep model="r:455e9449-2e48-48a9-93ac-e0c6a3819e34(baseLanguage.sugar.structure)" hash="-4xactplv5l74kc46d9yyghxizqbjlck" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
-  <common hash="-3lydjt03t601inkkwpstndjru63dtnt" dependsOnNodes="true">
+  <common hash="-3lydjt03t601inkkwpstndjru63dtnt">
     <dep root="7730107903695472171" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />

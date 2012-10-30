@@ -1,139 +1,43 @@
 <project name="baseLang-sugar-languages" default="pack.baseLanguage.sugar">
   <fail unless="deploy.dir" message="Property deploy.dir unspecified." />
   <target name="pack.baseLanguage.sugar">
-    <mkdir dir="/home/dmitry/Workspace/language-sugar/languages/sugar/classes_gen" />
+    <mkdir dir="/home/dsidorenko/Workspace/private/language-sugar/languages/sugar/classes_gen" />
     <mkdir dir="${deploy.dir}/baseLang-sugar.zip.tmp/baseLang-sugar/baseLanguage.sugar.jar.jtmp" />
     <echoxml file="${deploy.dir}/baseLang-sugar.zip.tmp/baseLang-sugar/baseLanguage.sugar.jar.jtmp/module.xml">
       <module namespace="baseLanguage.sugar" uuid="d965f506-a0c0-43c2-871a-b97ce8f6c751" type="language">
         <dependencies>
-          <module ref="019b622b-0aef-4dd3-86d0-4eef01f3f6bb(jetbrains.mps.ide)" />
-          <module ref="04b376d5-fc16-403b-a344-c68b30193c6a(jetbrains.mps.execution.lib)" />
-          <module ref="0647eca7-da98-422a-8a8b-6ebc0bd014ea(jetbrains.mps.lang.editor#1129914002149)" />
-          <module ref="0e7466c6-bdd9-48a0-921b-a0f4bac08259(jetbrains.mps.baseLanguage.classifiers#1205839057922)" />
-          <module ref="0eddeefa-c2d6-4437-bc2c-de50fd4ce470(jetbrains.mps.lang.script)" />
-          <module ref="134ef213-c518-42b0-b12c-c109aa13d320(collections_trove.runtime)" />
-          <module ref="13744753-c81f-424a-9c1b-cf8943bf4e86(jetbrains.mps.lang.sharedConcepts)" />
-          <module ref="18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)" />
-          <module ref="1d6e05d7-9de9-40a7-9dad-7b8444280942(jetbrains.mps.lang.plugin#1203080439937)" />
-          <module ref="20c6e580-bdc5-4067-8049-d7e3265a86de(jetbrains.mps.typesystemEngine)" />
-          <module ref="22e72e4c-0f69-46ce-8403-6750153aa615(jetbrains.mps.execution.configurations)" />
-          <module ref="23949432-aaff-4c03-b7da-26e4e956ccea(jetbrains.mps.baseLanguage.regexp.runtime)" />
-          <module ref="258bd2f6-0d02-411d-86b2-5a5ea083e6d2(jetbrains.mps.lang.editor.table.runtime)" />
-          <module ref="289fcc83-6543-41e8-a5ca-768235715ce4(jetbrains.mps.lang.generator.generationParameters)" />
-          <module ref="28f9e497-3b42-4291-aeba-0a1039153ab1(jetbrains.mps.lang.plugin)" />
+          <module ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)" />
+          <module ref="2072fe1f-e897-4510-a05d-7c15fed4d692(baseLanguage.sugar#7730107903695441338)" />
           <module ref="2af156ab-65c1-4a62-bd0d-ea734f71eab6(jetbrains.mps.dataFlow.runtime)" />
-          <module ref="2bdcefec-ba49-4b32-ab50-ebc7a41d5090(jetbrains.mps.lang.smodel#1139186730696)" />
-          <module ref="2ca6a34d-0b96-4602-9cdd-f9e33d51126a(jetbrains.mps.lang.behavior#1225195312923)" />
-          <module ref="2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)" />
-          <module ref="2ebbb458-8ebb-481e-a5d7-9e27903323d4(jetbrains.mps.baseLanguage.dates.runtime)" />
-          <module ref="34e84b8f-afa8-4364-abcd-a279fddddbe7(jetbrains.mps.editor.runtime)" />
-          <module ref="34f23130-e35c-4795-a45a-85d828b16016(jetbrains.mps.gtext.runtime)" />
-          <module ref="36c11d2d-1875-4a95-8bdb-70ea1ac63222(jetbrains.mps.execution.api)" />
-          <module ref="37a3367b-1fb2-44d8-aa6b-18075e74e003(MPS.Classpath)" />
-          <module ref="3a13115c-633c-4c5c-bbcc-75c4219e9555(jetbrains.mps.lang.quotation)" />
-          <module ref="3ecd7c84-cde3-45de-886c-135ecc69b742(jetbrains.mps.lang.refactoring)" />
-          <module ref="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1(jetbrains.mps.lang.constraints)" />
-          <module ref="40aea410-4b11-411f-9197-07da76ee0e82(jetbrains.mps.plugin.runtime)" />
-          <module ref="443f4c36-fcf5-4eb6-9500-8d06ed259e3e(jetbrains.mps.baseLanguage.classifiers)" />
           <module ref="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" />
-          <module ref="4caf0310-491e-41f5-8a9b-2006b3a94898(jetbrains.mps.execution.util)" />
-          <module ref="4df1d09b-d6ae-453e-8622-14c0d6e4c038(jetbrains.mps.baseLanguage.money.runtime)" />
-          <module ref="51736086-833e-4b0d-b9a6-a1dbbfda2131(jetbrains.mps.lang.sharedConcepts#1161623873951)" />
-          <module ref="5b247b59-8fd0-4475-a767-9e9ff6a9d01c(jetbrains.mps.execution.lib.startup)" />
-          <module ref="5d6bee4c-f891-4a93-a0c9-e2268726ae47(jetbrains.mps.uiLanguage)" />
-          <module ref="5f9babc9-8d5d-4825-8e61-17b241ee6272(jetbrains.mps.baseLanguage.collections#1151699677197)" />
           <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" />
-          <module ref="64d34fcd-ad02-4e73-aff8-a581124c2e30(jetbrains.mps.lang.findUsages)" />
-          <module ref="696c1165-4a59-463b-bc5d-902caab85dd0(jetbrains.mps.make.facet)" />
-          <module ref="707c4fde-f79a-44b5-b3d7-b5cef8844ccf(jetbrains.mps.lang.test.runtime)" />
-          <module ref="73736c50-f124-433b-b789-2828a15a0adc(jetbrains.mps.baseLanguage.collections.trove)" />
-          <module ref="73c1a490-99fa-4d0d-8292-b8985697c74b(jetbrains.mps.execution.common)" />
-          <module ref="756e911c-3f1f-4a48-bdf5-a2ceb91b723c(jetbrains.mps.execution.settings)" />
-          <module ref="760a0a8c-eabb-4521-8bfd-65db761a9ba3(jetbrains.mps.baseLanguage.logging)" />
-          <module ref="774bf8a0-62e5-41e1-af63-f4812e60e48b(jetbrains.mps.baseLanguage.checkedDots)" />
-          <module ref="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" />
-          <module ref="7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)" />
-          <module ref="7fa12e9c-b949-4976-b4fa-19accbc320b4(jetbrains.mps.lang.dataFlow)" />
-          <module ref="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
-          <module ref="83f155ff-422c-4b5a-a2f2-b459302dd215(jetbrains.mps.baseLanguage.unitTest.lib)" />
-          <module ref="857d0a79-6f44-4f46-84ed-9c5b42632011(jetbrains.mps.baseLanguage.closures#1199623535494)" />
-          <module ref="8585453e-6bfb-4d80-98de-b16074f1d86c(jetbrains.mps.lang.test)" />
-          <module ref="86abb39a-11fb-4a1e-ae95-ea43cc94ae42(collections.runtime.gwt)" />
-          <module ref="86ef8290-12bb-4ca7-947f-093788f263a9(jetbrains.mps.lang.project)" />
-          <module ref="8a97af52-a1ac-4297-b776-d35bf47ce8da(jetbrains.mps.quickQuery.runtime)" />
-          <module ref="8b77dde5-cd2d-4baa-ac86-1576c85b3095(jetbrains.mps.baseLanguage.unitTest#1171932017138)" />
+          <module ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" />
+          <module ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" />
+          <module ref="83f155ff-422c-4b5a-a2f2-b459302dd215(jetbrains.mps.baseLanguage.unitTest.libs)" />
           <module ref="8fe4c62a-2020-4ff4-8eda-f322a55bdc9f(jetbrains.mps.refactoring.runtime)" />
-          <module ref="920eaa0e-ecca-46bc-bee7-4e5c59213dd6(Testbench)" />
-          <module ref="95f8a3e6-f994-4ca0-a65e-763c9bae2d3b(jetbrains.mps.make.script)" />
-          <module ref="985c8c6a-64b4-486d-a91e-7d4112742556(jetbrains.mps.baseLanguage#1129914002933)" />
-          <module ref="99834b1c-2b28-4543-a97c-953df7633f72(jetbrains.mps.ypath.runtime)" />
-          <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" />
-          <module ref="9b67baf0-e986-49af-b77c-998667f458cb(jetbrains.mps.traceInfo)" />
           <module ref="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" />
           <module ref="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" />
-          <module ref="a0c108f0-1637-416e-a249-3effbaa4c998(jetbrains.mps.baseLanguage.search)" />
-          <module ref="a1250a4d-c090-42c3-ad7c-d298a3357dd4(jetbrains.mps.make.runtime)" />
-          <module ref="a150150e-46ee-4c9e-b080-08d136e4eefb(jetbrains.mps.baseLanguage.tuples#1238919486295)" />
-          <module ref="a247e09e-2435-45ba-b8d2-07e93feba96a(jetbrains.mps.baseLanguage.tuples)" />
-          <module ref="aaee1c4d-a7f9-41f6-9218-3a0ebac06eb4(jetbrains.mps.make.script#4629164904928166564)" />
-          <module ref="acc947bf-6778-444a-9dc7-4cc72d4eb3d0(jetbrains.mps.ui.swing.runtime)" />
-          <module ref="aee9cad2-acd4-4608-aef2-0004f6a1cdbd(jetbrains.mps.lang.actions)" />
-          <module ref="af19274f-5f89-42dd-8f3c-c9932448f7f2(jetbrains.mps.analyzers.runtime)" />
-          <module ref="af65afd8-f0dd-4942-87d9-63a55f2a9db1(jetbrains.mps.lang.behavior)" />
-          <module ref="b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)" />
-          <module ref="b736a816-59a2-4796-a8e6-372fc0a096ce(jetbrains.mps.lang.quotation#1196351859310)" />
-          <module ref="b83431fe-5c8f-40bc-8a36-65e25f4dd253(jetbrains.mps.lang.textGen)" />
-          <module ref="b98999bc-8369-4b20-9510-598d4eb5ace6(jetbrains.mps.baseLanguage.math.runtime)" />
-          <module ref="bffd1385-a29f-4b76-bb8a-cfb3227968be(jetbrains.mps.baseLanguage.regexp#1174510748147)" />
-          <module ref="c2b4d111-b1a9-4476-8bfc-454cbf1a6e6c(jetbrains.mps.baseLanguage.runConfigurations.runtime)" />
-          <module ref="c31fc437-4bfb-4447-bafe-2aa77860610e(jetbrains.mps.execution.commands#856705193941426438)" />
-          <module ref="c4f367dc-30c0-4376-9d05-1d1797bb8599(jetbrains.mps.lang.pattern.runtime)" />
-          <module ref="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
-          <module ref="cab85f8b-9525-42cb-8e6d-258ca6e56432(jetbrains.mps.baseLanguage.index)" />
           <module ref="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
-          <module ref="ceb47609-02c2-4927-bb6d-d58368388a62(jetbrains.mps.ide.uiLanguage.runtime)" />
-          <module ref="d05c4356-e6a8-4dcf-a81a-3adf36be3c35(jetbrains.mps.execution.settings#946964771156035778)" />
           <module ref="d44dab97-aaac-44cb-9745-8a14db674c03(jetbrains.mps.baseLanguage.tuples.runtime)" />
-          <module ref="d4615e3b-d671-4ba9-af01-2b78369b0ba7(jetbrains.mps.lang.pattern)" />
-          <module ref="d4e445fa-e1ac-4fc8-8d3b-e62b05d0ea4c(jetbrains.mps.ypath)" />
-          <module ref="d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)" />
-          <module ref="d7a92d38-f7db-40d0-8431-763b0c3c9f20(jetbrains.mps.lang.intentions)" />
-          <module ref="d84d74f3-ca7f-48ba-ab57-d22a60cad837(jetbrains.mps.execution.configurations#3754890006475631525)" />
-          <module ref="d95e286a-03bd-41d2-a04d-9db8f070e89c(webr.logging#1167240554582)" />
-          <module ref="daafa647-f1f7-4b0b-b096-69cd7c8408c0(jetbrains.mps.baseLanguage.regexp)" />
-          <module ref="df345b11-b8c7-4213-ac66-48d2a9b75d88(jetbrains.mps.baseLanguageInternal)" />
-          <module ref="df9d410f-2ebb-43f7-893a-483a4f085250(jetbrains.mps.smodel.resources)" />
-          <module ref="e00b808b-8cda-4cba-becc-a390490358b1(jetbrains.mps.lang.constraints#1147476727047)" />
-          <module ref="e5c2a44a-6085-4aeb-a5b6-851cecd2d926(jetbrains.mps.ui.gwt)" />
-          <module ref="e7d4970e-3e9f-4cf0-a129-f5976c82d635(jetbrains.mps.lang.patterns#1174810948060)" />
+          <module ref="d965f506-a0c0-43c2-871a-b97ce8f6c751(baseLanguage.sugar)" />
           <module ref="ed6d7656-532c-4bc2-81d1-af945aeb8280(jetbrains.mps.baseLanguage.blTypes)" />
-          <module ref="ef703a71-a5a3-42af-b53c-ddced816ad5c(jetbrains.mps.lang.stubs)" />
-          <module ref="f18753d4-d7a2-434f-85a3-f8eedf77c99a(ypath#1168438160182)" />
-          <module ref="f2801650-65d5-424e-bb1b-463a8781b786(jetbrains.mps.baseLanguage.javadoc)" />
           <module ref="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
-          <module ref="f3347d8a-0e79-4f35-8ac9-1574f25c986f(jetbrains.mps.execution.commands)" />
-          <module ref="f61473f9-130f-42f6-b98d-6c438812c2f6(jetbrains.mps.baseLanguage.unitTest)" />
-          <module ref="f618e99a-2641-465c-bb54-31fe76f9e285(jetbrains.mps.baseLanguage.unitTest.runtime)" />
-          <module ref="f85adbd8-2ec2-4572-bcfc-8dd799a7f025(jetbrains.mps.xmlUnitTest)" />
-          <module ref="fa8aeae9-4df9-4e13-bfb1-9b04c67ddb77(jetbrains.mps.debug.customViewers)" />
-          <module ref="fbc14279-5e2a-4c87-a5d1-5f7061e6c456(jetbrains.mps.debug.apiLang)" />
-          <module ref="fc4584d6-365c-4ceb-b660-b2c91933024d(jetbrains.mps.lang.test#1210261198005)" />
-          <module ref="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" />
+          <module ref="fdb93da0-59ed-4001-b2aa-4fad79ec058e(JDK.Tools)" />
         </dependencies>
         <sources jar="baseLanguage.sugar-src.jar" descriptor="sugar.mpl" />
       </module>
     </echoxml>
     <jar destfile="${deploy.dir}/baseLang-sugar.zip.tmp/baseLang-sugar/baseLanguage.sugar-src.jar" compress="true" duplicate="preserve" filesonly="true">
-      <zipfileset dir="/home/dmitry/Workspace/language-sugar/languages/sugar/source_gen" includes="**/*.java" erroronmissingdir="false" />
-      <zipfileset dir="/home/dmitry/Workspace/language-sugar/languages/sugar/test_gen" includes="**/*.java" erroronmissingdir="false" />
-      <zipfileset file="/home/dmitry/Workspace/language-sugar/languages/sugar/sugar.mpl" prefix="module" />
-      <zipfileset dir="/home/dmitry/Workspace/language-sugar/languages/sugar/languageModels" includes="**/*.mps, **/*.metadata, **/*.history" prefix="module/languageModels" />
-      <zipfileset dir="/home/dmitry/Workspace/language-sugar/languages/sugar/generator/template" includes="**/*.mps, **/*.metadata, **/*.history" prefix="module/generator/template" />
+      <zipfileset dir="/home/dsidorenko/Workspace/private/language-sugar/languages/sugar/source_gen" includes="**/*.java" erroronmissingdir="false" />
+      <zipfileset dir="/home/dsidorenko/Workspace/private/language-sugar/languages/sugar/test_gen" includes="**/*.java" erroronmissingdir="false" />
+      <zipfileset file="/home/dsidorenko/Workspace/private/language-sugar/languages/sugar/sugar.mpl" prefix="module" />
+      <zipfileset dir="/home/dsidorenko/Workspace/private/language-sugar/languages/sugar/generator/template" includes="**/*.mps, **/*.metadata, **/*.history" prefix="module/generator/template" />
+      <zipfileset dir="/home/dsidorenko/Workspace/private/language-sugar/languages/sugar/languageModels" includes="**/*.mps, **/*.metadata, **/*.history" prefix="module/languageModels" />
     </jar>
     <jar destfile="${deploy.dir}/baseLang-sugar.zip.tmp/baseLang-sugar/baseLanguage.sugar.jar" compress="true" duplicate="preserve" filesonly="true">
       <zipfileset file="${deploy.dir}/baseLang-sugar.zip.tmp/baseLang-sugar/baseLanguage.sugar.jar.jtmp/module.xml" prefix="META-INF" />
-      <zipfileset dir="/home/dmitry/Workspace/language-sugar/languages/sugar" includes="icons/**, resources/**" />
-      <zipfileset dir="/home/dmitry/Workspace/language-sugar/languages/sugar/classes_gen" />
+      <zipfileset dir="/home/dsidorenko/Workspace/private/language-sugar/languages/sugar" includes="icons/**, resources/**" />
+      <zipfileset dir="/home/dsidorenko/Workspace/private/language-sugar/languages/sugar/classes_gen" />
     </jar>
     <delete dir="${deploy.dir}/baseLang-sugar.zip.tmp/baseLang-sugar/baseLanguage.sugar.jar.jtmp" />
   </target>

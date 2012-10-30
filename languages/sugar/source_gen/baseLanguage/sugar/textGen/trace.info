@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="4998957681465436549">
+  <root nodeId="4998957681465436549" modelId="r:050bcdd8-63f5-4143-be12-8971e4771ba9(baseLanguage.sugar.textGen)">
     <nodeInfo nodeId="4998957681465436549" fileName="UnlessInlineStatement_TextGen.java" startLine="15" startPosition="44" endLine="16" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4998957681465436552" fileName="UnlessInlineStatement_TextGen.java" startLine="17" startPosition="5" endLine="18" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="4998957681465436552" fileName="UnlessInlineStatement_TextGen.java" startLine="17" startPosition="5" endLine="18" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -36,10 +36,12 @@
     <scopeInfo nodeId="4998957681465436555" fileName="UnlessInlineStatement_TextGen.java" startLine="19" startPosition="24" endLine="23" endPosition="25" />
     <scopeInfo nodeId="4998957681465436563" fileName="UnlessInlineStatement_TextGen.java" startLine="23" startPosition="25" endLine="28" endPosition="25" />
     <scopeInfo nodeId="4998957681465436549" fileName="UnlessInlineStatement_TextGen.java" startLine="14" startPosition="42" endLine="33" endPosition="5" />
-    <scopeInfo nodeId="4998957681465436549" fileName="UnlessInlineStatement_TextGen.java" startLine="13" startPosition="65" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="4998957681465436549" fileName="UnlessInlineStatement_TextGen.java" startLine="13" startPosition="65" endLine="35" endPosition="0">
+      <varInfo nodeId="4998957681465436549" varName="node" />
+    </scopeInfo>
     <unitInfo nodeId="4998957681465436549" fileName="UnlessInlineStatement_TextGen.java" startLine="13" startPosition="0" endLine="36" endPosition="0" unitName="baseLanguage.sugar.textGen.UnlessInlineStatement_TextGen" />
   </root>
-  <root nodeId="6100386288364111687">
+  <root nodeId="6100386288364111687" modelId="r:050bcdd8-63f5-4143-be12-8971e4771ba9(baseLanguage.sugar.textGen)">
     <nodeInfo nodeId="6100386288364111687" fileName="IfInlineStatement_TextGen.java" startLine="15" startPosition="44" endLine="16" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1237558539834" fileName="IfInlineStatement_TextGen.java" startLine="17" startPosition="5" endLine="18" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1237558539834" fileName="IfInlineStatement_TextGen.java" startLine="17" startPosition="5" endLine="18" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -75,7 +77,9 @@
     <scopeInfo nodeId="1237463991865" fileName="IfInlineStatement_TextGen.java" startLine="19" startPosition="24" endLine="23" endPosition="25" />
     <scopeInfo nodeId="6100386288364160000" fileName="IfInlineStatement_TextGen.java" startLine="23" startPosition="25" endLine="28" endPosition="25" />
     <scopeInfo nodeId="6100386288364111687" fileName="IfInlineStatement_TextGen.java" startLine="14" startPosition="42" endLine="33" endPosition="5" />
-    <scopeInfo nodeId="6100386288364111687" fileName="IfInlineStatement_TextGen.java" startLine="13" startPosition="61" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="6100386288364111687" fileName="IfInlineStatement_TextGen.java" startLine="13" startPosition="61" endLine="35" endPosition="0">
+      <varInfo nodeId="6100386288364111687" varName="node" />
+    </scopeInfo>
     <unitInfo nodeId="6100386288364111687" fileName="IfInlineStatement_TextGen.java" startLine="13" startPosition="0" endLine="36" endPosition="0" unitName="baseLanguage.sugar.textGen.IfInlineStatement_TextGen" />
   </root>
 </debugInfo>
