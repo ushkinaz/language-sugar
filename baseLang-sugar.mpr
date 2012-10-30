@@ -23,7 +23,7 @@
     <projectModules>
       <modulePath path="${project}/languages/sugar/sugar.mpl" />
       <modulePath path="${project}/languages/test/test.mpl" folder="" />
-      <modulePath path="${project}/solutions/baseLang-sugar.build/baseLang-sugar.build.msd" />
+      <modulePath path="${project}/solutions/baseLang.sugar.build0/build.msd" />
       <modulePath path="${project}/solutions/test/test.msd" folder="" />
     </projectModules>
     <genConfs />
