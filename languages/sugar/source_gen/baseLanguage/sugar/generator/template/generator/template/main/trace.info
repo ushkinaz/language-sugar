@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="QueriesGenerated.java" startLine="11" startPosition="0" endLine="24" endPosition="0" unitName="baseLanguage.sugar.generator.template.generator.template.main.QueriesGenerated" />
+  <root nodeId="7730107903695472171" modelId="r:1ed15f01-bfff-4415-ad99-ca4fdf487cf5(baseLanguage.sugar.generator.template.generator.template.main@generator)">
+    <nodeInfo nodeId="7730107903695474108" fileName="QueriesGenerated.java" startLine="12" startPosition="150" endLine="13" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7730107903695474123" fileName="QueriesGenerated.java" startLine="16" startPosition="150" endLine="17" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7730107903695474116" fileName="QueriesGenerated.java" startLine="20" startPosition="155" endLine="21" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="7730107903695474107" fileName="QueriesGenerated.java" startLine="12" startPosition="150" endLine="13" endPosition="79" />
+    <scopeInfo nodeId="7730107903695474122" fileName="QueriesGenerated.java" startLine="16" startPosition="150" endLine="17" endPosition="30" />
+    <scopeInfo nodeId="7730107903695474115" fileName="QueriesGenerated.java" startLine="20" startPosition="155" endLine="21" endPosition="78" />
+  </root>
+</debugInfo>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="baseLanguage.sugar.test.IfTest_Test" file="IfTest_Test.java">
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="junit.framework.Assert" />
+    <classNode extendsClassName="junit.framework.TestCase" />
+  </dependency>
+  <dependency className="baseLanguage.sugar.test.StringFormatTest_Test" file="StringFormatTest_Test.java">
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="java.util.Formatter" />
+    <classNode dependClassName="junit.framework.Assert" />
+    <classNode extendsClassName="junit.framework.TestCase" />
+  </dependency>
+  <dependency className="baseLanguage.sugar.test.UnlessTest_Test" file="UnlessTest_Test.java">
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="junit.framework.Assert" />
+    <classNode extendsClassName="junit.framework.TestCase" />
+  </dependency>
+</dependenciesRoot>
+

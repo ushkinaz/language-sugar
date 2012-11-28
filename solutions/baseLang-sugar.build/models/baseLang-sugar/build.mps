@@ -29,7 +29,7 @@
       <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Zip" typeId="3ior.7389400916848050071" id="4369447684777307447">
         <node role="containerName" roleId="3ior.4380385936562148502" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="4369447684777307448">
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="4369447684777307449">
-            <property name="text" nameId="3ior.4903714810883755350" value="baseLang-sugar.zip" />
+            <property name="text" nameId="3ior.4903714810883755350" value="baseLanguage.sugar.zip" />
           </node>
         </node>
         <node role="children" roleId="3ior.7389400916848037006" type="kdzh.BuildMpsLayout_Plugin" typeId="kdzh.6592112598314498926" id="4369447684777307450">
@@ -38,10 +38,10 @@
       </node>
     </node>
     <node role="parts" roleId="3ior.7389400916848080626" type="kdzh.BuildMps_IdeaPlugin" typeId="kdzh.6592112598314498932" id="4369447684777307451">
-      <property name="id" nameId="kdzh.6592112598314498927" value="baseLang.sugar" />
+      <property name="id" nameId="kdzh.6592112598314498927" value="baseLanguage.sugar" />
       <node role="name" roleId="kdzh.6592112598314499021" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="4369447684777307452">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="4369447684777307453">
-          <property name="text" nameId="3ior.4903714810883755350" value="baseLang-sugar" />
+          <property name="text" nameId="3ior.4903714810883755350" value="baseLanguage.sugar" />
         </node>
       </node>
       <node role="version" roleId="kdzh.6592112598314498931" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="4369447684777307454">
@@ -57,12 +57,12 @@
       </node>
       <node role="containerName" roleId="kdzh.6592112598314855574" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="4369447684777307458">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="4369447684777307459">
-          <property name="text" nameId="3ior.4903714810883755350" value="baseLang-sugar" />
+          <property name="text" nameId="3ior.4903714810883755350" value="baseLanguage.sugar" />
         </node>
       </node>
       <node role="vendor" roleId="kdzh.7832771629084912518" type="kdzh.BuildMps_IdeaPluginVendor" typeId="kdzh.7832771629084799699" id="4369447684777307468">
         <property name="name" nameId="kdzh.7832771629084799702" value="Dmitry Sidorenko" />
-        <property name="url" nameId="kdzh.7832771629084799701" value="https://github.com/ushkinaz/language-sugar" />
+        <property name="url" nameId="kdzh.7832771629084799701" value="http://documentup.com/ushkinaz/language-sugar" />
       </node>
     </node>
     <node role="parts" roleId="3ior.7389400916848080626" type="kdzh.BuildMps_Group" typeId="kdzh.1500819558095907805" id="4369447684777307460">

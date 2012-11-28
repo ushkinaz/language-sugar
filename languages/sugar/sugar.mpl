@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="baseLanguage.sugar" uuid="d965f506-a0c0-43c2-871a-b97ce8f6c751" doNotGenerateAdapters="false">
+<language namespace="baseLanguage.sugar" uuid="d965f506-a0c0-43c2-871a-b97ce8f6c751" doNotGenerateAdapters="true">
   <models>
     <modelRoot path="${language_descriptor}/languageModels" />
   </models>
