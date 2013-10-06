@@ -14,4 +14,7 @@ public class StringFormatTest_Test extends TestCase {
   public void test_noParams() throws Exception {
     Assert.assertEquals(new Formatter().format("One and only", 1, "only").toString(), "One and only");
   }
+
+  public StringFormatTest_Test() {
+  }
 }

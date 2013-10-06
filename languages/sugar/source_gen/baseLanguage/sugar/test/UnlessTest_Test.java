@@ -21,4 +21,7 @@ public class UnlessTest_Test extends TestCase {
     }
     Assert.assertSame(t, 5);
   }
+
+  public UnlessTest_Test() {
+  }
 }

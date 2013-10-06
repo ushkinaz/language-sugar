@@ -5,7 +5,7 @@ package baseLanguage.sugar.dataFlow;
 import jetbrains.mps.lang.dataFlow.DataFlowBuilder;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.lang.dataFlow.DataFlowBuilderContext;
-import jetbrains.mps.smodel.SNode;
+import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class ConditionalInlineStatement_DataFlow extends DataFlowBuilder {
@@ -14,7 +14,7 @@ public class ConditionalInlineStatement_DataFlow extends DataFlowBuilder {
 
   public void build(final IOperationContext operationContext, final DataFlowBuilderContext _context) {
     _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), "condition", true));
-    _context.getBuilder().emitIfJump(_context.getBuilder().after(SLinkOperations.getTarget(_context.getNode(), "inlineExpression", true)));
+    _context.getBuilder().emitIfJump(_context.getBuilder().after(SLinkOperations.getTarget(_context.getNode(), "inlineExpression", true)), "r:e958485b-7a71-4d77-a16b-d539d60d905b(baseLanguage.sugar.dataFlow)/6100386288364173702");
     _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), "inlineExpression", true));
   }
 }

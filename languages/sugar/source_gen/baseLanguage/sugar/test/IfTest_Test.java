@@ -21,4 +21,7 @@ public class IfTest_Test extends TestCase {
     }
     Assert.assertSame(t, 5);
   }
+
+  public IfTest_Test() {
+  }
 }

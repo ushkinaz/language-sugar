@@ -16,41 +16,24 @@
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
   <component name="MPSFavoritesManager">
     <favorites_list name="Strings">
-      <favorite_root model_ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" node_pointer="1153422105332" />
+      <favorite_root node_ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/1153422105332" />
     </favorites_list>
   </component>
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="${project}/languages/sugar/sugar.mpl" />
-      <modulePath path="${project}/languages/test/test.mpl" folder="" />
-      <modulePath path="${project}/solutions/baseLang-sugar.build/build.msd" />
-      <modulePath path="${project}/solutions/baseLang-sugar.build1/build.msd" />
-      <modulePath path="${project}/solutions/baseLang.sugar.build0/build.msd" />
-      <modulePath path="${project}/solutions/test/test.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/sugar/sugar.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/test/test.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/baseLang-sugar.build1/build.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/baseLang.sugar.build0/build.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/test/test.msd" folder="" />
     </projectModules>
-    <genConfs />
   </component>
   <component name="ProjectModuleManager">
     <modules />
   </component>
   <component name="ProjectRootManager" version="2" />
   <component name="ProjectVersion">
-    <option name="version" value="2.5" />
-  </component>
-  <component name="SvnConfiguration" maxAnnotateRevisions="500">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="DETECT_NESTED_COPIES" value="true" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+    <option name="version" value="3.0" />
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
