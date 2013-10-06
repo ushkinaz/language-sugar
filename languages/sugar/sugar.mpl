@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="baseLanguage.sugar" uuid="d965f506-a0c0-43c2-871a-b97ce8f6c751" doNotGenerateAdapters="true">
+<language namespace="baseLanguage.sugar" uuid="d965f506-a0c0-43c2-871a-b97ce8f6c751">
   <models>
-    <modelRoot path="${language_descriptor}/languageModels" />
+    <modelRoot contentPath="${module}/languageModels" type="default">
+      <sourceRoot location="." />
+    </modelRoot>
   </models>
   <accessoryModels />
   <generators>
     <generator name="" generatorUID="baseLanguage.sugar#7730107903695441338" uuid="2072fe1f-e897-4510-a05d-7c15fed4d692">
       <models>
-        <modelRoot path="${language_descriptor}/generator/template" />
+        <modelRoot contentPath="${module}/generator/template" type="default">
+          <sourceRoot location="." />
+        </modelRoot>
       </models>
       <external-templates />
       <usedLanguages>
